@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.house {
+  background-image: url("football.webp");
+  
+ 
+ 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+.img {
+  height: 120px;
+  width: 100px;
+  border: black solid 4px;
+  border-radius: 50%;
+  float: left;
+}
+
+.container {
+  border: 5px solid black;
+
+  background-image: url("cover3.jpg");
+   max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.safin {
+  float: left;
+  padding: 30px;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  background: black;
+  padding:5px;
+}
+
+.contact {
+  padding: 20px;
+  float: right;
+
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.clear-div {
+  clear: both;
+}
+
+.hr {
+  border: 4px solid black;
+  width: 100%;
+
+}
+
+hr {
+  border: 2px solid white;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+img {
+  background-image: url("image.jpg");
+  background-size: cover;
+  /* fills the whole area */
+  background-position: center;
+  /* centers the image */
+  background-repeat: no-repeat;
+  /* prevents repeating */
+}
+
+.football {
+ margin: 0 auto;
+ display: block;
+  
+  border: 2px solid white;height:2140 ;
+  width: 1200;
+}
